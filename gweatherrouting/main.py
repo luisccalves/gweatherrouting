@@ -14,8 +14,8 @@ GNU General Public License for more details.
 For detail about GNU see <http://www.gnu.org/licenses/>.
 '''
 import logging
-from . import log
-from .core import Core
+import log
+from core import core
 
 logger = logging.getLogger ('gweatherrouting')
 

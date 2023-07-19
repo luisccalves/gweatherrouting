@@ -20,7 +20,7 @@ import platform
 import logging
 import json
 from datetime import date, datetime
-from ... import log
+import log
 
 logger = logging.getLogger ('gweatherrouting')
 
